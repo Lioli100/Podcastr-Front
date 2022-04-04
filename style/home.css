@@ -1,0 +1,194 @@
+div#home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+div#header-main {
+  width: 100%;
+}
+
+header#cabecalho {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+hgroup.hg-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 64px 32px 64px;
+}
+
+#esquerda {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 0 0.8rem 0.8rem;
+}
+
+#direita {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 0 0.8rem 0.8rem;
+}
+
+section#card {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 6.4rem 0 6.4rem;
+}
+
+.imgCard {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 0.1rem;
+  padding: 1rem;
+}
+
+img.player-verde-card {
+  border-radius: 0.1rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  left: 29.44%;
+  right: 67.78%;
+  top: 30%;
+  bottom: 65.12%;
+}
+
+.card {
+  width: 43.2;
+  height: 13.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  border: 1px solid #e6e8eb;
+  box-sizing: border-box;
+  border-radius: 2.4rem;
+}
+
+div.container h1 {
+  padding: 2.4rem 6.4rem 0 6.4rem;
+}
+
+h1 {
+  height: 2rem;
+  left: 6.4rem;
+  top: 13.6rem;
+
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+
+  color: #494d4b;
+}
+
+h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+hgroup#ipisodios {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 6.4rem;
+  height: 2.5rem;
+}
+
+main#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  padding: 2.4rem 6.4rem;
+  /* align-items: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+tr,
+th,
+td {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 0.1rem solid #ccced1;
+}
+
+aside {
+  background-color: #8257e5;
+  justify-content: space-between;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 4.1rem 6.4rem;
+  width: 42.4rem;
+  height: 82rem;
+}
+
+#img-headfone {
+  width: 16.9rem;
+  height: 3.2rem;
+}
+
+div#h2-aside {
+  width: 29.6rem;
+  height: 34.6rem;
+  background: linear-gradient(
+    143.8deg,
+    rgba(145, 100, 250, 0.8) 0%,
+    rgba(145, 100, 250, 0) 100%
+  );
+  border: 0.15rem dashed #9f75ff;
+  box-sizing: border-box;
+  border-radius: 2.4rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 12.6rem 0 12.6rem 0rem;
+  padding: 15.3rem 7.2rem 15.3rem 7.1rem;
+  color: #fff;
+}
+
+div#progressao p {
+  padding: 0 5.5rem 3.9rem 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 28.2rem;
+  height: 1.7rem;
+}
+
+input#progress {
+  width: 17.4rem;
+  height: 0.4rem;
+  padding: 0 0rem 0 3.2rem;
+}
+
+aside figure#figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  flex-direction: row;
+}
+
+fragment#podcastr {
+  width: 29.6rem;
+  height: 34.6rem;
+}

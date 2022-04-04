@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  --primary: #8257e5;
+  --background: #e5e5e5;
+  --itemLines: #e6e8eb;
+
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: var(--background);
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+}
+
+h1 {
+  font-family: lexend;
+  weight: 600 semibold;
+  size: 1.6rem;
+}
+
+div#interface {
+  width: 100%;
+  margin: 0 auto;
+}
