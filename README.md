@@ -1,8 +1,8 @@
 # Podcastr-Front
 Criação de um Podcast com a mentoria de Jakeliny da Rocketseat. 
-<!-- <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src=".github/rocketq.png" width="220px" />
-</h1> -->
+<h1 align="center">
+  <img alt="Podcastr" title="Podcastr" src=".github/podcastr.png" width="220px" />
+</h1> 
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -19,10 +19,10 @@ Criação de um Podcast com a mentoria de Jakeliny da Rocketseat.
 
 <br>
 
-<!-- <p align="center">
-  <img alt="Rocket.Q" src=".github/capa.png" width="100%">
+<p align="center">
+  <img alt="Podcastr" src=".github/capa.jpg" width="100%">
 </p>
--->
+
 ## 🚀 Technologies
 
 This project was developed with the following technologies:
@@ -36,13 +36,19 @@ Podcast is audio content, made available through a file or streaming, which has 
 
 ## How to use?
 
+Download this repositorie and with your teminal, enter in the directory
+
+1. Open this project with your favorite editor;
+2. After, install de Live Server extansion; 
+3. And, open the index.html with the Live Server to see the project.
+
 ## 🔖 Layout
 
-You can see the layout of the project at to access it.
+You can see the layout of the project at [this link](https://www.figma.com/file/SGXQteG6GDYOchB51jFmzQ/Podcastr?node-id=196629%3A1). It's necessary have an account at [Figma](https://figma.com) to access it.
 
 ## :memo: License
 
-This project is under MIT license. See the file for more details.
+This project is under MIT license. See the file [LICENSE](.github/LICENSE.md) for more details.
 
 ---
 
