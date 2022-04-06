@@ -36,7 +36,7 @@ body,
 button,
 input,
 textarea {
-  font-size: clamp(14px, 1.6rem, 2vw);
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
 }
 
 div#home {

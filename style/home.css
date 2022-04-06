@@ -1,7 +1,7 @@
 div.content {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  /* width: 80%; */
 }
 
 div#header-main {
@@ -24,11 +24,12 @@ hgroup.hg-cabecalho {
 main {
   padding: 3.2rem 6.4rem 0.9rem 6.4rem;
   height: 82rem;
+  width: 142.2rem;
 }
 
 section#card {
   weight: 88.8rem;
-  height: 19rem;
+  height: 16rem;
   display: flex;
   justify-content: space-between;
 }
@@ -189,15 +190,15 @@ div#h2-aside {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 12.6rem 0 12.6rem 0rem;
-  padding: 15.3rem 7.1rem 15.3rem 7.2rem;
+  margin: 12.6rem 0 10.6rem 0rem;
+  padding: 15.3rem 7.1rem 15.3rem 6.5rem;
   color: var(--text-body-light);
 }
 
 div#progressao {
-  width: 28.2rem;
-  display: flex;
-  justify-content: space-between;
+  /* width: 29.5rem; */
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 div#progressao p {
@@ -208,14 +209,22 @@ div#progressao p {
 
   width: 3.9rem;
   height: 1.7rem;
+
+  color: var(--text-body-light);
+
+  font-family: "inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 input#progress {
-  width: 17.4rem;
+  width: 20.4rem;
   height: 0.4rem;
-  padding: 0 1.6rem 0 1.6rem;
+  padding: 0 3.6rem 0 3.6rem;
+  margin: 0rem 1rem 0rem 1rem;
+  border-radius: 1rem;
+  background: var(--primary-green);
 }
-
 aside figure#figure {
   display: flex;
   justify-content: space-between;
@@ -223,9 +232,5 @@ aside figure#figure {
   bottom: 0;
   flex-direction: row;
   padding-top: 4.2rem;
-}
-
-fragment#podcastr {
-  width: 29.6rem;
-  height: 34.6rem;
+  text-align: center;
 }
