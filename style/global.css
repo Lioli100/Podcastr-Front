@@ -7,9 +7,21 @@
 }
 
 html {
-  --primary: #8257e5;
+  --primary-green: #04d361;
+  --primary-green-light: #9f75ff;
+  --primary-red: #8257e5;
+  --primary-purple-dark: #6f48c9;
+
+  --text-heading: #494d4b;
+  --text-body: #808080;
+  --text-body-medium: #afb3b1;
+  --text-body-light: #ffffff;
+
+  --items-line: #e6e8eb;
+  --items-shape: #f7f8fa;
+  --items-background: #ffffff;
+
   --background: #e5e5e5;
-  --itemLines: #e6e8eb;
 
   font-size: 62.5%;
 }
@@ -27,13 +39,7 @@ textarea {
   font-size: clamp(14px, 1.6rem, 2vw);
 }
 
-h1 {
-  font-family: lexend;
-  weight: 600 semibold;
-  size: 1.6rem;
-}
-
-div#interface {
+div#home {
   width: 100%;
   margin: 0 auto;
 }

@@ -1,4 +1,4 @@
-div#home {
+div.content {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -9,7 +9,7 @@ div#header-main {
 }
 
 header#cabecalho {
-  background-color: #fff;
+  background-color: var(--items-background);
   width: 100%;
   padding: 0.5rem;
 }
@@ -21,22 +21,29 @@ hgroup.hg-cabecalho {
   padding: 32px 64px 32px 64px;
 }
 
-#esquerda {
-  display: inline-block;
-  justify-content: space-between;
-  padding: 0 0 0.8rem 0.8rem;
-}
-
-#direita {
-  display: inline-block;
-  justify-content: space-between;
-  padding: 0 0 0.8rem 0.8rem;
+main {
+  padding: 3.2rem 6.4rem 0.9rem 6.4rem;
+  height: 82rem;
 }
 
 section#card {
+  weight: 88.8rem;
+  height: 19rem;
   display: flex;
   justify-content: space-between;
-  padding: 2.4rem 6.4rem 0 6.4rem;
+}
+
+.card {
+  width: 43.2;
+  height: 13.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--items-background);
+
+  border: 1px solid var(--items-line);
+  box-sizing: border-box;
+  border-radius: 2.4rem;
 }
 
 .imgCard {
@@ -57,21 +64,8 @@ img.player-verde-card {
   bottom: 65.12%;
 }
 
-.card {
-  width: 43.2;
-  height: 13.6rem;
-  display: flex;
+div.container {
   justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-
-  border: 1px solid #e6e8eb;
-  box-sizing: border-box;
-  border-radius: 2.4rem;
-}
-
-div.container h1 {
-  padding: 2.4rem 6.4rem 0 6.4rem;
 }
 
 h1 {
@@ -85,7 +79,11 @@ h1 {
   font-size: 2rem;
   line-height: 2rem;
 
-  color: #494d4b;
+  color: var(--text-heading);
+}
+
+hgroup#ipisodios {
+  padding: 2.4rem 0rem 2.4rem 0rem;
 }
 
 h2 {
@@ -103,39 +101,71 @@ h3 {
 hgroup#ipisodios {
   display: flex;
   justify-content: space-between;
-  padding: 2.4rem 6.4rem;
   height: 2.5rem;
 }
 
-main#container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 table {
-  width: 100%;
-  padding: 2.4rem 6.4rem;
-  /* align-items: flex-end; */
+  width: 88.8rem;
+  height: 39.9rem;
   align-items: center;
   justify-content: space-between;
+  border-collapse: collapse;
 }
 
 tr,
 th,
 td {
-  justify-content: space-between;
+  justify-content: left;
   display: flex;
-  border-bottom: 0.1rem solid #ccced1;
+  align-items: center;
+}
+
+th.podcast {
+  width: 35rem;
+  color: var(--text-body-medium);
+}
+
+th.podcast-th {
+  padding-bottom: 1.2rem;
+  width: 30rem;
+  align-items: center;
+  justify-content: left;
+  color: var(--text-body-medium);
+}
+
+th.podcast-player {
+  width: 6rem;
+}
+
+.listPlayer {
+  width: 4rem;
+}
+
+td {
+  width: 30rem;
+  justify-content: left;
+  border-bottom: 1px solid var(--text-body-medium);
+  padding: 1.2rem 1.6rem 1.2rem 0rem;
+  height: 6.5rem;
+}
+
+td.imgtable {
+  padding: 1.2rem 1.6rem 1.2rem 0;
+  width: 35rem;
+  justify-content: left;
+}
+
+.imgList {
+  padding-right: 1.6rem;
 }
 
 aside {
-  background-color: #8257e5;
+  background-color: var(--primary-red);
   justify-content: space-between;
   display: inline-block;
   text-align: center;
   align-items: center;
-  padding: 4.1rem 6.4rem;
+  padding: 4.1rem 6.4rem 0rem;
   width: 42.4rem;
   height: 82rem;
 }
@@ -153,31 +183,37 @@ div#h2-aside {
     rgba(145, 100, 250, 0.8) 0%,
     rgba(145, 100, 250, 0) 100%
   );
-  border: 0.15rem dashed #9f75ff;
+  border: 0.15rem dashed var(--primary-green-light);
   box-sizing: border-box;
   border-radius: 2.4rem;
   align-items: center;
   text-align: center;
   justify-content: center;
   margin: 12.6rem 0 12.6rem 0rem;
-  padding: 15.3rem 7.2rem 15.3rem 7.1rem;
-  color: #fff;
+  padding: 15.3rem 7.1rem 15.3rem 7.2rem;
+  color: var(--text-body-light);
+}
+
+div#progressao {
+  width: 28.2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 div#progressao p {
-  padding: 0 5.5rem 3.9rem 5.3rem;
+  padding: 11.9 7rem 0rem 7.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  width: 28.2rem;
+  width: 3.9rem;
   height: 1.7rem;
 }
 
 input#progress {
   width: 17.4rem;
   height: 0.4rem;
-  padding: 0 0rem 0 3.2rem;
+  padding: 0 1.6rem 0 1.6rem;
 }
 
 aside figure#figure {
@@ -186,6 +222,7 @@ aside figure#figure {
   align-items: center;
   bottom: 0;
   flex-direction: row;
+  padding-top: 4.2rem;
 }
 
 fragment#podcastr {
