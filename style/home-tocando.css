@@ -1,7 +1,6 @@
 div.content {
   display: flex;
   justify-content: space-between;
-  /* width: 80%; */
 }
 
 div#header-main {
@@ -211,8 +210,6 @@ aside {
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* margin: 12.6rem 0 10.6rem 0rem;
-  padding: 15.3rem 7.1rem 15.3rem 6.5rem; */
 }
 
 h2.codar-tranquilo {

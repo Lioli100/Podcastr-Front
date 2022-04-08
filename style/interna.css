@@ -2,7 +2,6 @@ div.content {
   display: flex;
   justify-content: space-between;
   width: 144rem;
-  /* width: 80%; */
 }
 
 div#header-main {
@@ -30,30 +29,7 @@ main {
   height: 62rem;
 }
 
-section#card {
-  /* weight: 88.8rem;
-  height: 16rem;
-  display: flex;
-  justify-content: space-between; */
-}
-/* 
-.card {
-  width: 65.6rem;
-  height: 16rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--items-background);
-
-  border: 1px solid var(--items-line);
-  box-sizing: border-box;
-  border-radius: 2.4rem;
-} */
-
 .imgCard {
-  /* width: 65.6rem;
-  height: 16rem;
-  border-radius: 0.1rem; */
   padding: 4.8rem 0rem 3.2rem 2.4rem;
 }
 
@@ -94,10 +70,6 @@ h1 {
   padding: 0rem 0rem 2.4rem 4rem;
 
   color: var(--text-heading);
-}
-
-hgroup#ipisodios {
-  padding: 2.4rem 0rem 2.4rem 0rem;
 }
 
 h2 {
@@ -162,8 +134,6 @@ aside {
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* margin: 12.6rem 0 10.6rem 0rem;
-  padding: 15.3rem 7.1rem 15.3rem 6.5rem; */
 }
 
 h2.codar-tranquilo {
