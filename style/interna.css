@@ -1,6 +1,8 @@
 div.content {
   display: flex;
   justify-content: space-between;
+  width: 144rem;
+  /* width: 80%; */
 }
 
 div#header-main {
@@ -21,21 +23,23 @@ hgroup.hg-cabecalho {
 }
 
 main {
-  padding: 3.2rem 6.4rem 0.9rem 6.4rem;
-  height: 82rem;
-  width: 142.2rem;
+  margin: 0rem 0rem 0rem 15.6rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 80.4rem;
+  height: 62rem;
 }
 
 section#card {
-  weight: 88.8rem;
+  /* weight: 88.8rem;
   height: 16rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
-
+/* 
 .card {
-  width: 43.2;
-  height: 13.6rem;
+  width: 65.6rem;
+  height: 16rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,25 +48,31 @@ section#card {
   border: 1px solid var(--items-line);
   box-sizing: border-box;
   border-radius: 2.4rem;
-  padding: 1rem;
-}
+} */
 
 .imgCard {
-  width: 9.6rem;
-  height: 9.6rem;
-  border-radius: 0.1rem;
-  padding: 1rem;
+  /* width: 65.6rem;
+  height: 16rem;
+  border-radius: 0.1rem; */
+  padding: 4.8rem 0rem 3.2rem 2.4rem;
+}
+
+img.player-azul-card {
+  position: absolute;
+  top: 22rem;
+  left: 15.6rem;
 }
 
 img.player-verde-card {
-  border-radius: 0.1rem;
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
-  left: 29.44%;
-  right: 67.78%;
-  top: 30%;
-  bottom: 65.12%;
+  position: absolute;
+  top: 22rem;
+  left: 81.2rem;
+}
+
+img.player-verde-arrow-card {
+  position: absolute;
+  top: 23.4rem;
+  left: 82.3rem;
 }
 
 div.container {
@@ -70,15 +80,18 @@ div.container {
 }
 
 h1 {
-  height: 2rem;
-  left: 6.4rem;
-  top: 13.6rem;
+  width: 63rem;
+  height: 8rem;
+  left: 19.6rem;
+  top: 34.4rem;
 
   font-family: "Lexend";
   font-style: normal;
   font-weight: 600;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 3.2rem;
+  line-height: 4rem;
+
+  padding: 0rem 0rem 2.4rem 4rem;
 
   color: var(--text-heading);
 }
@@ -97,91 +110,29 @@ h3 {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
+  padding-bottom: 1.8rem;
+  padding: 0rem 0rem 2.4rem 4rem;
 }
 
 hgroup#ipisodios {
   display: flex;
   justify-content: space-between;
   height: 2.5rem;
+  padding: 2.4rem 0rem 2.4rem 4rem;
 }
 
-table {
-  width: 88.8rem;
-  height: 39.9rem;
-  align-items: center;
-  justify-content: space-between;
-  border-collapse: collapse;
-}
+hgroup p {
+  width: 62.4rem;
+  height: 2.8rem;
 
-tr,
-th,
-td {
-  justify-content: left;
-  display: flex;
-  align-items: center;
-}
-
-th.podcast {
-  width: 35rem;
-  color: var(--text-body-medium);
-  font-family: "Lexend", sans-serif;
-  font-weight: 500;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
-  padding-bottom: 1.2rem;
-}
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: justify;
 
-th.podcast-th {
-  width: 30rem;
-  align-items: center;
-  justify-content: left;
-  color: var(--text-body-medium);
-  font-family: "Lexend", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
-  padding-bottom: 1.2rem;
-}
-
-th.podcast-player {
-  width: 4rem;
-  color: var(--text-body-medium);
-  font-family: "Lexend", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
-  padding-bottom: 1.2rem;
-}
-
-.listPlayer {
-  width: 4rem;
-}
-
-td {
-  width: 30rem;
-  justify-content: left;
-  border-bottom: 1px solid var(--text-body-medium);
-  padding: 1.2rem 1.6rem 1.2rem 0rem;
-  height: 6.5rem;
-}
-
-td.imgtable {
-  padding: 1.2rem 1.6rem 1.2rem 0;
-  width: 35rem;
-  justify-content: left;
-}
-
-.imgList {
-  padding-right: 1.6rem;
+  color: var(--text-heading);
 }
 
 aside {
@@ -198,27 +149,38 @@ aside {
 #img-headfone {
   width: 16.9rem;
   height: 3.2rem;
+  margin: 0rem 0rem 8.1rem 0;
 }
 
-div#h2-aside {
+.img-tocando {
   width: 29.6rem;
   height: 34.6rem;
-  background: linear-gradient(
-    143.8deg,
-    rgba(145, 100, 250, 0.8) 0%,
-    rgba(145, 100, 250, 0) 100%
-  );
+
   border: 0.15rem dashed var(--primary-green-light);
   box-sizing: border-box;
   border-radius: 2.4rem;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 12.6rem 0 10.6rem 0rem;
-  padding: 15.3rem 7.1rem 15.3rem 6.5rem;
-  color: var(--text-body-light);
+  /* margin: 12.6rem 0 10.6rem 0rem;
+  padding: 15.3rem 7.1rem 15.3rem 6.5rem; */
 }
 
+h2.codar-tranquilo {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3.2rem 7.1rem 0.8rem 6.5rem;
+  color: var(--text-body-light);
+
+  width: 32rem;
+}
+
+p.nome-dev {
+  weight: 10.3rem;
+  color: var(--primary-green-light);
+  margin: 0rem 0rem 7.7rem 0;
+}
 div#progressao p {
   padding: 11.9 7rem 0rem 7.2rem;
   display: flex;
@@ -239,7 +201,7 @@ input#progress {
   width: 20.4rem;
   height: 0.4rem;
   padding: 0 3.6rem 0 3.6rem;
-  margin: 0rem 0.8rem 0rem 0.8rem;
+  margin: 0rem 1rem 0rem 1rem;
   border-radius: 1rem;
   background: var(--primary-green);
 }

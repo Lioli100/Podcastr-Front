@@ -1,6 +1,7 @@
 div.content {
   display: flex;
   justify-content: space-between;
+  /* width: 80%; */
 }
 
 div#header-main {
@@ -44,7 +45,6 @@ section#card {
   border: 1px solid var(--items-line);
   box-sizing: border-box;
   border-radius: 2.4rem;
-  padding: 1rem;
 }
 
 .imgCard {
@@ -198,25 +198,37 @@ aside {
 #img-headfone {
   width: 16.9rem;
   height: 3.2rem;
+  margin: 0rem 0rem 8.1rem 0;
 }
 
-div#h2-aside {
+.img-tocando {
   width: 29.6rem;
   height: 34.6rem;
-  background: linear-gradient(
-    143.8deg,
-    rgba(145, 100, 250, 0.8) 0%,
-    rgba(145, 100, 250, 0) 100%
-  );
+
   border: 0.15rem dashed var(--primary-green-light);
   box-sizing: border-box;
   border-radius: 2.4rem;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 12.6rem 0 10.6rem 0rem;
-  padding: 15.3rem 7.1rem 15.3rem 6.5rem;
+  /* margin: 12.6rem 0 10.6rem 0rem;
+  padding: 15.3rem 7.1rem 15.3rem 6.5rem; */
+}
+
+h2.codar-tranquilo {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3.2rem 7.1rem 0.8rem 6.5rem;
   color: var(--text-body-light);
+
+  width: 32rem;
+}
+
+p.nome-dev {
+  weight: 10.3rem;
+  color: var(--primary-green-light);
+  margin: 0rem 0rem 7.7rem 0;
 }
 
 div#progressao p {
@@ -239,7 +251,7 @@ input#progress {
   width: 20.4rem;
   height: 0.4rem;
   padding: 0 3.6rem 0 3.6rem;
-  margin: 0rem 0.8rem 0rem 0.8rem;
+  margin: 0rem 1rem 0rem 1rem;
   border-radius: 1rem;
   background: var(--primary-green);
 }
