@@ -21,9 +21,11 @@
     <div id="home" class="content">
       <div id="header-main">
         <header id="cabecalho">
+          <!-- Há necessidade desse hgroup, pois tem img além dos hs, nessa página toda, só aqui tem essas tags img junto do hgroup, devo refatorar?-->
           <hgroup class="hg-cabecalho">
             <img src="/assets/img-logo.svg" alt="Logo" />
             <img src="assets/Line.svg" alt="Linha" />
+
             <h3>O melhor para você ouvir, sempre.</h3>
             <h3>Sex, 01 de Abril</h3>
           </hgroup>
@@ -78,6 +80,9 @@
               </hgroup>
               <br />
               <table>
+                <!-- Eu poderia ter usado o caption para esse título, em vez do h1 acima?<caption>
+                  Todos os Episódios
+                </caption> -->
                 <tr>
                   <th class="podcast">PODCAST</th>
                   <th class="podcast-th">INTEGRANTES</th>
@@ -195,7 +200,10 @@
                     <h2>A vida é boa!</h2>
                   </td>
                   <td><h3>Jonas</h3></td>
-                  <td><h3>10 Junho 2002</h3></td>
+                  <td>
+                    <!-- uso ou não essa tag time? -->
+                    <time datetime="2022-10-07">10 Junho 2002</time>
+                  </td>
                   <td><h3>1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
