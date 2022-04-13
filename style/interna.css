@@ -2,6 +2,7 @@ div.content {
   display: flex;
   justify-content: space-between;
   width: 144rem;
+  height: 82rem;
 }
 
 div#header-main {
@@ -12,13 +13,23 @@ header#cabecalho {
   background-color: var(--items-background);
   width: 100%;
   padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 64px 32px 64px;
+}
+
+figure.logo-line {
+  display: flex;
+  justify-content: space-between;
+  width: 25.9rem;
 }
 
 hgroup.hg-cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 64px 32px 64px;
+  padding: 0rem 0rem 0rem 3.2rem;
+  width: 100%;
 }
 
 main {
@@ -53,6 +64,7 @@ img.player-verde-arrow-card {
 
 div.container {
   justify-content: space-between;
+  width: 88.8rem;
 }
 
 h1 {
@@ -84,6 +96,14 @@ h3 {
   font-weight: 400;
   padding-bottom: 1.8rem;
   padding: 0rem 0rem 2.4rem 4rem;
+}
+
+.h3-interna-cabecalho {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 0rem;
+  padding: 0rem 0rem 0rem 0rem;
 }
 
 hgroup#ipisodios {

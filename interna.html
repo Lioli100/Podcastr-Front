@@ -18,20 +18,20 @@
     <link rel="stylesheet" href="style/global.css" />
     <link rel="stylesheet" href="style/interna.css" />
   </head>
-
   <body>
     <div id="home" class="content">
       <div id="header-main">
-
         <header id="cabecalho">
-          <hgroup class="hg-cabecalho">
+          <!-- Há necessidade desse hgroup, pois tem img além dos hs, nessa página toda, só aqui tem essas tags img junto do hgroup, devo refatorar?-->
+          <figure class="logo-line">
             <img src="/assets/img-logo.svg" alt="Logo" />
             <img src="assets/Line.svg" alt="Linha" />
-            <h3>O melhor para você ouvir, sempre.</h3>
-            <h3>Sex, 01 de Abril</h3>
+          </figure>
+          <hgroup class="hg-cabecalho">
+            <h3 class="h3-interna-cabecalho">O melhor para você ouvir, sempre.</h3>
+            <h3 class="h3-interna-cabecalho">Sex, 01 de Abril</h3>
           </hgroup>
         </header>
-
         <main>
             <section>
               <img  class="player-azul-card " src="assets/player-azul-maior.svg" alt="Player">

@@ -1,6 +1,8 @@
 div.content {
   display: flex;
   justify-content: space-between;
+  width: 144rem;
+  height: 82rem;
 }
 
 div#header-main {
@@ -11,21 +13,30 @@ header#cabecalho {
   background-color: var(--items-background);
   width: 100%;
   padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 64px 32px 64px;
+}
+
+figure.logo-line {
+  display: flex;
+  justify-content: space-between;
+  width: 25.9rem;
 }
 
 hgroup.hg-cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 64px 32px 64px;
+  padding: 0rem 0rem 0rem 3.2rem;
+  width: 100%;
 }
 
 main {
   padding: 3.2rem 6.4rem 0.9rem 6.4rem;
   height: 82rem;
-  width: 142.2rem;
+  width: 88.8rem;
 }
-
 section#card {
   weight: 88.8rem;
   height: 16rem;
@@ -44,6 +55,7 @@ section#card {
   border: 1px solid var(--items-line);
   box-sizing: border-box;
   border-radius: 2.4rem;
+  padding: 1rem;
 }
 
 .imgCard {
@@ -66,6 +78,7 @@ img.player-verde-card {
 
 div.container {
   justify-content: space-between;
+  width: 88.8rem;
 }
 
 h1 {
@@ -120,6 +133,11 @@ td {
   align-items: center;
 }
 
+tr {
+  border-bottom: 0.1rem solid var(--text-body-medium);
+  width: 88.8rem;
+}
+
 th.podcast {
   width: 35rem;
   color: var(--text-body-medium);
@@ -129,7 +147,6 @@ th.podcast {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
   padding-bottom: 1.2rem;
 }
 
@@ -144,7 +161,6 @@ th.podcast-th {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
   padding-bottom: 1.2rem;
 }
 
@@ -157,7 +173,6 @@ th.podcast-player {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--text-body-medium);
   padding-bottom: 1.2rem;
 }
 
@@ -168,7 +183,6 @@ th.podcast-player {
 td {
   width: 30rem;
   justify-content: left;
-  border-bottom: 1px solid var(--text-body-medium);
   padding: 1.2rem 1.6rem 1.2rem 0rem;
   height: 6.5rem;
 }
