@@ -14,76 +14,73 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style/global.css" />
-    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="./assets/style/global.css" />
+    <link rel="stylesheet" href="./assets/style/home.css" />
   </head>
   <body>
-    <div id="home" class="content">
-      <div id="header-main">
-        <header id="cabecalho">
-          <!-- Há necessidade desse hgroup, pois tem img além dos hs, nessa página toda, só aqui tem essas tags img junto do hgroup, devo refatorar?-->
+    <div class="content">
+      <div class="header-main">
+        <header class="header">
           <figure class="logo-line">
-            <img src="/assets/img-logo.svg" alt="Logo" />
-            <img src="assets/Line.svg" alt="Linha" />
+            <img src="./assets/images/img-logo.svg" alt="Logo" />
+            <img src="./assets/images/line.svg" alt="Linha" />
           </figure>
-          <hgroup class="hg-cabecalho">
-            <h3>O melhor para você ouvir, sempre.</h3>
-            <h3>Sex, 01 de Abril</h3>
+          <hgroup class="hg-header">
+            <h3 class="text">O melhor para você ouvir, sempre.</h3>
+            <h3 class="text">Sex, 01 de Abril</h3>
           </hgroup>
         </header>
         <main>
           <div class="container">
-            <h1>Últimos lançamentos</h1>
+            <h1 class="title">Últimos lançamentos</h1>
             <br />
-            <section id="card">
+            <section class="card-section">
               <card class="card"
                 ><img
-                  src="assets/card-esquerda.svg"
                   class="imgCard"
-                  alt="Card esquerda"
+                  src="./assets/images/card-left.svg"
+                  alt="Imagem"
                 />
-                <hgroup id="esquerda">
-                  <h2>O que é um bom código</h2>
-                  <h3>Mário</h3>
-                  <h3>03 Abril 2022</h3>
-                  <h3>1:35:18</h3>
+                <hgroup>
+                  <h2 class="sub-title">O que é um bom código</h2>
+                  <h3 class="text">Mário</h3>
+                  <h3 class="text">03 Abril 2022</h3>
+                  <h3 class="text">1:35:18</h3>
                 </hgroup>
                 <img
-                  class="player-verde-card"
-                  src="assets/img-play-verde.svg"
+                  class="player-green-card"
+                  alt=""
+                  src="./assets/images/img-play-green.svg"
                   alt="Player verde"
                 />
               </card>
               <card class="card"
                 ><img
-                  src="assets/card-direita.svg"
                   class="imgCard"
-                  alt="imgCardDireita"
+                  src="./assets/images/card-rigth.svg"
+                  alt="Imagem"
                 />
-                <hgroup id="direita">
-                  <h2>Como começar na programação...</h2>
-                  <h3>Mário</h3>
-                  <h3>03 Abril 2022</h3>
-                  <h3>1:35:18</h3>
+                <hgroup>
+                  <h2 class="sub-title">Como começar na programação...</h2>
+                  <h3 class="text">Mário</h3>
+                  <h3 class="text">03 Abril 2022</h3>
+                  <h3 class="text">1:35:18</h3>
                 </hgroup>
                 <img
-                  class="player-verde-card"
-                  src="assets/img-play-verde.svg"
+                  class="player-green-card"
+                  src="./assets/images/img-play-green.svg"
                   alt="Player verde"
                 />
               </card>
             </section>
 
             <section>
-              <hgroup id="ipisodios">
-                <h1>Todos os Episódios</h1>
-                <h3>16 ao total</h3>
+              <hgroup class="episodes">
+                <h1 class="title">Todos os Episódios</h1>
+                <h3 class="text">16 ao total</h3>
               </hgroup>
               <br />
               <table>
-                <!-- Eu poderia ter usado o caption para esse título, em vez do h1 acima?<caption>
-                  Todos os Episódios
-                </caption> -->
                 <tr>
                   <th class="podcast">PODCAST</th>
                   <th class="podcast-th">INTEGRANTES</th>
@@ -94,19 +91,18 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-01.svg"
+                      src="./assets/images/img-list-01.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>A Vida é boa</h2>
+                    <h2 class="sub-title">A Vida é boa</h2>
                   </td>
-                  <td><h3>Mário</h3></td>
-                  <td><h3>03 Abril 2002</h3></td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">Mário</h3></td>
+                  <td><h3 class="text">03 Abril 2002</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -114,19 +110,18 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-02.svg"
+                      src="./assets/images/img-list-02.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>Como programar Like a god</h2>
+                    <h2 class="sub-title">Como programar Like a god</h2>
                   </td>
-                  <td><h3>Tiago</h3></td>
-                  <td><h3>03 Abril 2002</h3></td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">Tiago</h3></td>
+                  <td><h3 class="text">03 Abril 2002</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer01"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -134,19 +129,18 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-03.svg"
+                      src="./assets/images/img-list-03.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>Bora viver!</h2>
+                    <h2 class="sub-title">Bora viver!</h2>
                   </td>
-                  <td><h3>Luiz</h3></td>
-                  <td><h3>10 Maio 2002</h3></td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">Luiz</h3></td>
+                  <td><h3 class="text">10 Maio 2002</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer02"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -154,19 +148,18 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-04.svg"
+                      src="./assets/images/img-list-04.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>Não desista de você!</h2>
+                    <h2 class="sub-title">Não desista de você!</h2>
                   </td>
-                  <td><h3>Maria</h3></td>
-                  <td><h3>10 Junho 2002</h3></td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">Maria</h3></td>
+                  <td><h3 class="text">10 Junho 2002</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer03"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -174,19 +167,18 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-05.svg"
+                      src="./assets/images/img-list-05.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>A vida é incrível!</h2>
+                    <h2 class="sub-title">A vida é incrível!</h2>
                   </td>
-                  <td><h3>Sueli</h3></td>
-                  <td><h3>10 Maio 2002</h3></td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">Sueli</h3></td>
+                  <td><h3 class="text">10 Maio 2002</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer04"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -194,22 +186,21 @@
                 <tr>
                   <td class="imgtable">
                     <img
-                      src="assets/img-list-06.svg"
+                      src="./assets/images/img-list-06.svg"
                       class="imgList"
                       alt="Imagem"
                     />
-                    <h2>A vida é boa!</h2>
+                    <h2 class="sub-title">A vida é boa!</h2>
                   </td>
-                  <td><h3>Jonas</h3></td>
+                  <td><h3 class="text">Jonas</h3></td>
                   <td>
                     <!-- uso ou não essa tag time? -->
                     <time datetime="2022-10-07">10 Junho 2002</time>
                   </td>
-                  <td><h3>1:35:18</h3></td>
+                  <td><h3 class="text">1:35:18</h3></td>
                   <td class="listPlayer">
                     <img
-                      src="assets/img-play-verde.svg"
-                      id="imgListPlayer05"
+                      src="./assets/images/img-play-green.svg"
                       alt="Player"
                     />
                   </td>
@@ -220,15 +211,19 @@
         </main>
       </div>
       <aside>
-        <img id="img-headfone" src="assets/Top.svg" alt="Headfone" />
-        <div id="h2-aside">
-          <h2>Selecione um podcast para ouvir</h2>
+        <img
+          class="img-headphone"
+          src="./assets/images/Top.svg"
+          alt="Headphone"
+        />
+        <div class="card-aside">
+          <h2 class="sub-title">Selecione um podcast para ouvir</h2>
         </div>
         <div id="progressao">
           <p>
             00:00
             <input
-              id="progress"
+              class="progress"
               type="range"
               name="tUrg"
               id="cUrg"
@@ -239,15 +234,14 @@
             00:00
           </p>
         </div>
-        <figure id="figure">
-          <img src="assets/shuffle.svg" alt="Surffle" />
-          <img src="assets/play-previous.svg" alt="Previou" />
-          <img src="assets/img-play-azul.svg" alt="Play" />
-          <img src="assets/play-next.svg" alt="Next" />
-          <img src="assets/repeat.svg" alt="" />
+        <figure class="figure">
+          <img src="./assets/images/shuffle.svg" alt="shuffle" />
+          <img src="./assets/images/play-previous.svg" alt="Previous" />
+          <img src="./assets/images/img-play-blue.svg" alt="Play" />
+          <img src="./assets/images/play-next.svg" alt="Next" />
+          <img src="./assets/images/repeat.svg" alt="Refresh" />
         </figure>
       </aside>
     </div>
   </body>
-  <footer></footer>
 </html>

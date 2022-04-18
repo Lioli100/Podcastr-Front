@@ -1,32 +1,25 @@
-div.content {
-  display: flex;
-  justify-content: space-between;
-  width: 144rem;
-  height: 82rem;
-}
-
-div#header-main {
+.header-main {
   width: 100%;
 }
 
-header#cabecalho {
+.header {
   background-color: var(--items-background);
   width: 100%;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   display: flex;
   justify-content: space-between;
-  /* padding: 32px 64px 32px 64px; */
+  padding: 32px 64px 32px 64px;
   align-items: center;
   align-content: center;
 }
 
-figure.logo-line {
+.logo-line {
   display: flex;
   justify-content: space-between;
   width: 25.9rem;
 }
 
-hgroup.hg-cabecalho {
+.hg-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,30 +39,31 @@ main {
   padding: 4.8rem 0rem 3.2rem 2.4rem;
 }
 
-img.player-azul-card {
+.player-blue-card {
   position: absolute;
   top: 22rem;
-  left: 15.6rem;
+  left: 6rem;
+  margin-left: 82.45rem;
 }
 
-img.player-verde-card {
+.player-green-card {
   position: absolute;
   top: 22rem;
-  left: 81.2rem;
+  left: 153rem;
 }
 
-img.player-verde-arrow-card {
+.player-green-arrow-card {
   position: absolute;
   top: 23.4rem;
-  left: 82.3rem;
+  left: 154rem;
 }
 
-div.container {
+.container {
   justify-content: space-between;
   width: 88.8rem;
 }
 
-h1 {
+.title {
   width: 63rem;
   height: 8rem;
   left: 19.6rem;
@@ -92,30 +86,30 @@ h2 {
   font-weight: 600;
 }
 
-h3 {
+.text {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
-  /* padding-bottom: 1.8rem; */
-  /* padding: 0rem 0rem 2.4rem 4rem; */
+  padding-bottom: 1.8rem;
+  padding: 0rem 0rem 2.4rem 4rem;
 }
 
-.h3-interna-cabecalho {
+.text-header {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
-  /* padding-bottom: 0rem;
-  padding: 0rem 0rem 0rem 0rem; */
+  padding-bottom: 0rem;
+  padding: 0rem 0rem 0rem 0rem;
 }
 
-hgroup#ipisodios {
+.episodes {
   display: flex;
   justify-content: space-between;
   height: 2.5rem;
   padding: 2.4rem 0rem 2.4rem 4rem;
 }
 
-hgroup p {
+article p {
   width: 62.4rem;
   height: 2.8rem;
 
@@ -140,13 +134,13 @@ aside {
   height: 82rem;
 }
 
-#img-headfone {
+.img-headphone {
   width: 16.9rem;
   height: 3.2rem;
   margin: 0rem 0rem 8.1rem 0;
 }
 
-.img-tocando {
+.img-playing {
   width: 29.6rem;
   height: 34.6rem;
 
@@ -158,7 +152,7 @@ aside {
   justify-content: center;
 }
 
-h2.codar-tranquilo {
+.title-aside {
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -168,12 +162,12 @@ h2.codar-tranquilo {
   width: 32rem;
 }
 
-p.nome-dev {
+.name-dev {
   weight: 10.3rem;
   color: var(--primary-green-light);
   margin: 0rem 0rem 7.7rem 0;
 }
-div#progressao p {
+#progressao p {
   padding: 11.9 7rem 0rem 7.2rem;
   display: flex;
   align-items: center;
@@ -189,7 +183,7 @@ div#progressao p {
   font-weight: 400;
 }
 
-input#progress {
+.progress {
   width: 20.4rem;
   height: 0.4rem;
   padding: 0 3.6rem 0 3.6rem;
@@ -197,7 +191,7 @@ input#progress {
   border-radius: 1rem;
   background: var(--primary-green);
 }
-aside figure#figure {
+.figure {
   display: flex;
   justify-content: space-between;
   align-items: center;

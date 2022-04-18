@@ -39,7 +39,9 @@ textarea {
   font-size: clamp(1.4rem, 1.6rem, 2vw);
 }
 
-div#home {
-  width: 100%;
+div.content {
+  min-width: 144rem;
+  min-height: 82rem;
   margin: 0 auto;
+  display: flex;
 }
