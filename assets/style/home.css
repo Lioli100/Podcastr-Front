@@ -221,7 +221,13 @@ aside {
   color: var(--text-body-light);
 }
 
-#progressao p {
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-container span {
   padding: 11.9 7rem 0rem 7.2rem;
   display: flex;
   align-items: center;
@@ -245,6 +251,16 @@ aside {
   border-radius: 1rem;
   background: var(--primary-green);
 }
+
+.progress .progress-bar {
+  background: #ccc;
+  padding: 0 3.6rem 0 3.6rem;
+  margin: 0rem 0.8rem 0rem 0.8rem;
+  border-radius: 1rem;
+  width: 16rem;
+  height: 0.4rem;
+}
+
 .figure {
   display: flex;
   justify-content: space-between;
@@ -254,3 +270,32 @@ aside {
   padding-top: 4.2rem;
   text-align: center;
 }
+
+/* .progress-container {
+  display: inline;
+  justify-content: space-between;
+} */
+
+/* .progress {
+  height: 2.5rem;
+  background-color: #ccc;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .progress .progress-bar {
+  position: absolute;
+  height: 100%;
+  background-color: #0fd439;
+  animation: progress-animation 5s infinite;
+} */
+
+/* @keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+} */

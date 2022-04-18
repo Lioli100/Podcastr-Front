@@ -167,7 +167,14 @@ aside {
   color: var(--primary-green-light);
   margin: 0rem 0rem 7.7rem 0;
 }
-#progressao p {
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-container span {
   padding: 11.9 7rem 0rem 7.2rem;
   display: flex;
   align-items: center;
@@ -187,10 +194,20 @@ aside {
   width: 20.4rem;
   height: 0.4rem;
   padding: 0 3.6rem 0 3.6rem;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 0.8rem 0rem 0.8rem;
   border-radius: 1rem;
   background: var(--primary-green);
 }
+
+.progress .progress-bar {
+  background: #ccc;
+  padding: 0 3.6rem 0 3.6rem;
+  margin: 0rem 0.8rem 0rem 0.8rem;
+  border-radius: 1rem;
+  width: 16rem;
+  height: 0.4rem;
+}
+
 .figure {
   display: flex;
   justify-content: space-between;
