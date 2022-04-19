@@ -40,7 +40,8 @@ textarea {
 }
 
 div.content {
-  min-width: 144rem;
+  width: 100%;
+  max-width: 144rem;
   min-height: 82rem;
   margin: 0 auto;
   display: flex;

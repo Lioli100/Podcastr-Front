@@ -63,6 +63,28 @@ main {
   margin: 1rem;
 }
 
+.text-card {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+.date-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0.8rem;
+  /* gap: 2rem; */
+}
+
+.separator-date {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #ddd;
+  margin: 0rem 0.8rem 0rem 1.2rem;
+}
+
 .player-green-card {
   border-radius: 0.1rem;
   width: 4rem;
@@ -88,9 +110,11 @@ h1.title {
 }
 
 h2.sub-title {
-  font-family: "Lexend", sans-serif;
-  font-size: 1.6rem;
+  font-family: "Lexend";
+  font-style: normal;
   font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
 }
 
 h3.text {

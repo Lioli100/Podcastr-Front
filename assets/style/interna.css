@@ -5,7 +5,6 @@
 .header {
   background-color: var(--items-background);
   width: 100%;
-  /* padding: 0.5rem; */
   display: flex;
   justify-content: space-between;
   padding: 32px 64px 32px 64px;
@@ -35,27 +34,44 @@ main {
   height: 62rem;
 }
 
-.imgCard {
-  padding: 4.8rem 0rem 3.2rem 2.4rem;
+.card {
+  width: 70.4rem;
+  height: 16rem;
+  margin-bottom: 3.2rem;
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .player-blue-card {
-  position: absolute;
-  top: 22rem;
-  left: 6rem;
-  margin-left: 82.45rem;
+  position: relative;
+  width: 4.8rem;
+  margin-right: -2.4rem;
+}
+
+.imgCard {
+  width: 65.6rem;
+  height: 16rem;
 }
 
 .player-green-card {
-  position: absolute;
-  top: 22rem;
-  left: 153rem;
+  width: 4.8rem;
+  margin-left: -2.4rem;
 }
 
 .player-green-arrow-card {
+  margin-left: -3.5rem;
   position: absolute;
-  top: 23.4rem;
-  left: 154rem;
+  top: 1.5rem;
+}
+
+.play-green-arrow {
+  position: relative;
+  width: 4.8rem;
+  height: 4.8rem;
+  margin: 5.6rem 0rem 5.6rem 0rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -91,7 +107,7 @@ h2 {
   font-size: 1.4rem;
   font-weight: 400;
   padding-bottom: 1.8rem;
-  padding: 0rem 0rem 2.4rem 4rem;
+  padding: 0rem 0rem 1.8rem 4rem;
 }
 
 .text-header {
@@ -106,10 +122,12 @@ h2 {
   display: flex;
   justify-content: space-between;
   height: 2.5rem;
-  padding: 2.4rem 0rem 2.4rem 4rem;
+  padding: 0rem 0rem 2.4rem 4rem;
 }
 
 article p {
+  border-top: 0.1rem solid rgb(213, 216, 219);
+  padding-top: 3.2rem;
   width: 62.4rem;
   height: 2.8rem;
 
