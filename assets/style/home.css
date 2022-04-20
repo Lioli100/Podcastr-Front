@@ -1,5 +1,6 @@
 .header-main {
   width: 100%;
+  max-width: 101.6rem;
 }
 
 .header {
@@ -8,6 +9,8 @@
   display: flex;
   justify-content: space-between;
   padding: 3.2rem 6.4rem 3.2rem 6.4rem;
+  width: 100%;
+  max-width: 101.6rem;
 }
 
 .logo-line {
@@ -22,32 +25,39 @@
   align-items: center;
   margin: 0rem 0rem 0rem 3.2rem;
   width: 100%;
+  max-width: 88.8rem;
 }
 
 main {
   margin: 3.2rem 6.4rem 0.9rem 6.4rem;
   height: 82rem;
-  width: 88.8rem;
+  width: 100%;
+  max-width: 88.8rem;
 }
 
 .container {
   justify-content: space-between;
-  width: 88.8rem;
+  width: 100%;
+  max-width: 88.8rem;
 }
 
 .card-section {
-  weight: 88.8rem;
+  width: 100%;
+  max-width: 88.8rem;
   height: 16rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 43.2rem 43.2rem;
+  grid-gap: 2.4rem;
 }
 
 .card {
-  width: 43.2;
+  width: 100%;
+  max-width: 43.2rem;
   height: 13.6rem;
 
+  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   background-color: var(--items-background);
 
@@ -60,7 +70,7 @@ main {
   width: 9.6rem;
   height: 9.6rem;
   border-radius: 0.1rem;
-  margin: 1rem;
+  margin: 1.6rem;
 }
 
 .text-card {
@@ -75,7 +85,6 @@ main {
   align-items: center;
   justify-content: flex-start;
   margin-top: 0.8rem;
-  /* gap: 2rem; */
 }
 
 .separator-date {
@@ -97,10 +106,6 @@ main {
 }
 
 h1.title {
-  height: 2rem;
-  left: 6.4rem;
-  top: 13.6rem;
-
   font-family: "Lexend";
   font-weight: 600, semi-bold;
   font-size: 2rem;
@@ -131,7 +136,8 @@ h3.text {
 }
 
 table {
-  width: 88.8rem;
+  width: 100%;
+  max-width: 88.8rem;
   height: 39.9rem;
   align-items: center;
   justify-content: space-between;
@@ -148,7 +154,8 @@ td {
 
 tr {
   border-bottom: 0.1rem solid var(--text-body-medium);
-  width: 88.8rem;
+  width: 100%;
+  max-width: 88.8rem;
 }
 
 .podcast {
@@ -217,7 +224,8 @@ aside {
   text-align: center;
   align-items: center;
   padding: 4.1rem 6.4rem 0rem;
-  width: 42.4rem;
+  width: 100%;
+  max-width: 42.4rem;
   height: 82rem;
 }
 

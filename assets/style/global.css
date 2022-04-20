@@ -27,7 +27,6 @@ html {
 }
 
 body {
-  display: flex;
   height: 100vh;
   background: var(--background);
 }
@@ -45,5 +44,5 @@ div.content {
   min-height: 82rem;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
